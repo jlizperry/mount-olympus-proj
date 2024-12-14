@@ -125,7 +125,7 @@ function setupThree() {
   audioLoader.load('assets/mystic.mp3', (buffer) => {
     backgroundMusic.setBuffer(buffer);
     backgroundMusic.setLoop(true);
-    backgroundMusic.setVolume(3); // Adjust volume as needed
+    backgroundMusic.setVolume(2); // Adjust volume as needed
 
     createRandomBushes(50); 
     createRandomBushes1(100); 
